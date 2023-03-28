@@ -1,4 +1,4 @@
-name: Postman Api Test | TaHouse
+name: Postman Api Test | Barbery App
 on: push
 jobs:
   automated-api-tests:

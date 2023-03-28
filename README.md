@@ -1,11 +1,11 @@
 
- <h1 align="left"><em>Ta-House | Idea 5</em></h1>
+ <h1 align="left"><em>Barbery App</em></h1>
 
  <br />
 
  <!-- ![logo](https://user-images.githubusercontent.com/86979361/198842663-82f943bc-53a8-4e45-a4b5-2de48b80af1b.jpg) -->
 
-<h2 align="left"><em>📋 Contenido </em></h2>
+<!-- <h2 align="left"><em>📋 Contenido </em></h2>
 <br />
 
 📌 [Proyecto de IdForIdeas](https://drive.google.com/file/d/1X7tHO7CpUHDNBqgOVyzlZqUOdyPzViTh/view)
@@ -19,7 +19,7 @@
 
 ⚙️ [Reporte de Testing | Manual y Automation](https://tahouse-casa.github.io/tahouse-testing/docs/downloads/inicio.html)
 <br />
-<br />
+<br /> -->
 
 <!-- <h2 align="left"><em>📋 Datos CP </em></h2>
 
@@ -46,7 +46,7 @@
 
 
 <h2 align="left"><em>✒️ Descripcion del Proyecto</em></h2>
-<h4 align="left">Ta House es una app que permite a los usuarios buscar inmuebles para alquilar, comprar o vender </h4>
+<!-- <h4 align="left">Ta House es una app que permite a los usuarios buscar inmuebles para alquilar, comprar o vender </h4> -->
 
 
 

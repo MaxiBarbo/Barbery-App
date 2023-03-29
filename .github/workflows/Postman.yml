@@ -1,4 +1,4 @@
-name: Automated API tests | Barbery App
+name: Postman API tests | Barbery App
 
 on: push
 

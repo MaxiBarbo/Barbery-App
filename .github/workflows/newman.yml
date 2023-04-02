@@ -1,25 +1,22 @@
-name: Postman Collection Runner
-
+name: Newman Test Run
 on:
   push:
-    branches: [ main ]
-
+    branches:
+    - main
+    - staging
 jobs:
-  run_postman:
-    name: Run Postman Collection and generate HTML report
+  newman:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '16'
+      - run: npm install -g newman
+      - run: newman run "https://api.getpostman.com/collections/26642903-d96183d6-7726-4c58-bd39-522ca3c6ffb0?apikey=${{ secrets.POSTMAN_API_KEY }}" --environment "https://api.getpostman.com/environments/26642903-9fee7d9a-725b-409a-8806-1359b9cf6837?apikey=${{ secrets.POSTMAN_API_KEY }}"
 
-      - name: Install Newman
-        run: npm install -g newman
-
-      - name: Run Postman Collection and generate HTML report
-        run:  newman run https://api.getpostman.com/collections/08c7d3df-d134-46bf-914c-b7b224e3dd3d?apikey=PMAK-63c355bc01ed333f4119fdc7-79e1372dd6f4ef0691b57ab4c358d2a025 -e https://api.getpostman.com/environments/7eb70b23-1675-428c-aaff-8d2f6193c1db?apikey=PMAK-63c355bc01ed333f4119fdc7-79e1372dd6f4ef0691b57ab4c358d2a025 -r html
-
-      - name: Upload HTML report as artifact
+      - name: Publicar reporte HTML
         uses: actions/upload-artifact@v2
         with:
-          name: postman-html-report
-          path: report.html
+          name: newman-results
+          path: ./newman/newman-results.html

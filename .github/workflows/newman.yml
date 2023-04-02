@@ -1,0 +1,25 @@
+name: Postman Collection Runner
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  run_postman:
+    name: Run Postman Collection and generate HTML report
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Newman
+        run: npm install -g newman
+
+      - name: Run Postman Collection and generate HTML report
+        run:  newman run https://api.getpostman.com/collections/08c7d3df-d134-46bf-914c-b7b224e3dd3d?apikey=PMAK-63c355bc01ed333f4119fdc7-79e1372dd6f4ef0691b57ab4c358d2a025 -e https://api.getpostman.com/environments/7eb70b23-1675-428c-aaff-8d2f6193c1db?apikey=PMAK-63c355bc01ed333f4119fdc7-79e1372dd6f4ef0691b57ab4c358d2a025 -r htmlextra
+
+      - name: Upload HTML report as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: postman-html-report
+          path: report.html

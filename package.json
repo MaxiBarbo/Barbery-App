@@ -26,6 +26,7 @@
     "chai": "^4.3.7",
     "cy-spok": "^1.5.2",
     "cypress-plugin-api": "^2.11.0",
+    "cypress-plugin-steps": "^1.1.1",
     "cypress-xpath": "^2.0.1",
     "newman": "^5.3.0",
     "prettier": "^2.8.3",

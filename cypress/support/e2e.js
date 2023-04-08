@@ -14,9 +14,13 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+
+// import '@applitools/eyes-cypress/commands'
+
 import './commands'
 import '@testing-library/cypress/add-commands'
 import 'cypress-mochawesome-reporter/register'
+import 'cypress-plugin-steps'
 
 
 require('cypress-xpath')

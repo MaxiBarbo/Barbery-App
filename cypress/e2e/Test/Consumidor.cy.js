@@ -5,6 +5,9 @@ describe('App Barbery | Test E2E en Requerimientos', () => {
     });
 
     it('A_001 | Registro en el Sistema', () => {
+        cy.section('Ingreso de datos validos')
+        cy.step('1er login')
+        cy.step('2do login')
         
     });
 

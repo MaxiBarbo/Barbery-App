@@ -6,8 +6,8 @@ class CaracterGenerate {
         // Genera un número aleatorio entre 0 y 25
         const numAleatorio = Math.floor(Math.random() * 26);
       
-        // Convierte el número aleatorio en un caracter usando el código ASCII
-        const caracter = String.fromCharCode(97 + numAleatorio); // 'a' es el código ASCII 97 8
+        // Convierte el número aleatorio en un caracter usando el código ASCIIi
+        const caracter = String.fromCharCode(97 + numAleatorio); // 'a' es el código ASCII 97 
         for (let i = 0; i < veces; i++) {
               resultado[i]
         }

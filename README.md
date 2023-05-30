@@ -1,6 +1,6 @@
 
  <h1 align="left"><em>Barbery App</em></h1>
-
+ <h2 align='left'>These projects were built with self-organized teams implementing the scrum methodology and using the Mern stack.</h1>
  <br />
 
  <!-- ![logo](https://user-images.githubusercontent.com/86979361/198842663-82f943bc-53a8-4e45-a4b5-2de48b80af1b.jpg) -->
@@ -46,7 +46,7 @@
 
 
 <h2 align="left"><em>✒️ Descripcion del Proyecto</em></h2>
-<!-- <h4 align="left">Ta House es una app que permite a los usuarios buscar inmuebles para alquilar, comprar o vender </h4> -->
+<h4 align="left">Ta House es una app que permite a los usuarios buscar inmuebles para alquilar, comprar o vender </h4>
 
 
 

@@ -25,7 +25,7 @@
 <h4 align="left">Ta House es una app que permite a los usuarios buscar inmuebles para alquilar, comprar o vender </h4>
 
  - [Test Plan - Google 📘Docs](https://docs.google.com/document/d/17rRD2IFsg1fhigdIX_unyzARuh0QUmijr3z_Mwyzuac/edit)
- - [GitHub Actions | ⚙️ Postman & Cypress](https://tahouse-casa.github.io/tahouse-testing/docs/downloads/inicio.html)
+ - [GitHub Actions | ⚙️ Postman & Cypress](https://github.com/MaxiBarbo/Barbery-App/actions)
 
 
 

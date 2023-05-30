@@ -51,7 +51,7 @@
 
 - ### <em>Sprint N°1</em>⚙️
 
- - [Test Plan - Google 📘Docs]([https://docs.google.com/document/d/1Xx8sjieOoW9J3KxGvVvh4f9f_67qTRfVkMO4sOdOIc0/edit](https://docs.google.com/document/d/17rRD2IFsg1fhigdIX_unyzARuh0QUmijr3z_Mwyzuac/edit))
+ - [Test Plan - Google 📘Docs](https://docs.google.com/document/d/1Xx8sjieOoW9J3KxGvVvh4f9f_67qTRfVkMO4sOdOIc0/edit](https://docs.google.com/document/d/17rRD2IFsg1fhigdIX_unyzARuh0QUmijr3z_Mwyzuac/edit)
   
 
 
